@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0275213E191530B6004C3D82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0275213D191530B6004C3D82 /* Foundation.framework */; };
+		02752140191530B6004C3D82 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0275213F191530B6004C3D82 /* CoreGraphics.framework */; };
+		02752142191530B6004C3D82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02752141191530B6004C3D82 /* UIKit.framework */; };
+		02752148191530B6004C3D82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02752146191530B6004C3D82 /* InfoPlist.strings */; };
+		0275214A191530B6004C3D82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02752149191530B6004C3D82 /* main.m */; };
+		0275214E191530B6004C3D82 /* DKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0275214D191530B6004C3D82 /* DKAppDelegate.m */; };
+		02752150191530B6004C3D82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0275214F191530B6004C3D82 /* Images.xcassets */; };
+		02752157191530B6004C3D82 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02752156191530B6004C3D82 /* XCTest.framework */; };
+		02752158191530B6004C3D82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0275213D191530B6004C3D82 /* Foundation.framework */; };
+		02752159191530B6004C3D82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02752141191530B6004C3D82 /* UIKit.framework */; };
+		02752161191530B6004C3D82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0275215F191530B6004C3D82 /* InfoPlist.strings */; };
+		02752163191530B6004C3D82 /* Circle_Button_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02752162191530B6004C3D82 /* Circle_Button_DemoTests.m */; };
+		0275216F191530F7004C3D82 /* DKCircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0275216E191530F7004C3D82 /* DKCircleButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0275215A191530B6004C3D82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02752132191530B6004C3D82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02752139191530B6004C3D82;
+			remoteInfo = "Circle Button Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0275213A191530B6004C3D82 /* Circle Button Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Circle Button Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0275213D191530B6004C3D82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0275213F191530B6004C3D82 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		02752141191530B6004C3D82 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		02752145191530B6004C3D82 /* Circle Button Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Circle Button Demo-Info.plist"; sourceTree = "<group>"; };
+		02752147191530B6004C3D82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02752149191530B6004C3D82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0275214B191530B6004C3D82 /* Circle Button Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Circle Button Demo-Prefix.pch"; sourceTree = "<group>"; };
+		0275214C191530B6004C3D82 /* DKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKAppDelegate.h; sourceTree = "<group>"; };
+		0275214D191530B6004C3D82 /* DKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKAppDelegate.m; sourceTree = "<group>"; };
+		0275214F191530B6004C3D82 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		02752155191530B6004C3D82 /* Circle Button DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Circle Button DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02752156191530B6004C3D82 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0275215E191530B6004C3D82 /* Circle Button DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Circle Button DemoTests-Info.plist"; sourceTree = "<group>"; };
+		02752160191530B6004C3D82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02752162191530B6004C3D82 /* Circle_Button_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Circle_Button_DemoTests.m; sourceTree = "<group>"; };
+		0275216D191530F7004C3D82 /* DKCircleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKCircleButton.h; sourceTree = "<group>"; };
+		0275216E191530F7004C3D82 /* DKCircleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKCircleButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02752137191530B6004C3D82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02752140191530B6004C3D82 /* CoreGraphics.framework in Frameworks */,
+				02752142191530B6004C3D82 /* UIKit.framework in Frameworks */,
+				0275213E191530B6004C3D82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02752152191530B6004C3D82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02752157191530B6004C3D82 /* XCTest.framework in Frameworks */,
+				02752159191530B6004C3D82 /* UIKit.framework in Frameworks */,
+				02752158191530B6004C3D82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02752131191530B6004C3D82 = {
+			isa = PBXGroup;
+			children = (
+				02752143191530B6004C3D82 /* Circle Button Demo */,
+				0275215C191530B6004C3D82 /* Circle Button DemoTests */,
+				0275213C191530B6004C3D82 /* Frameworks */,
+				0275213B191530B6004C3D82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0275213B191530B6004C3D82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0275213A191530B6004C3D82 /* Circle Button Demo.app */,
+				02752155191530B6004C3D82 /* Circle Button DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0275213C191530B6004C3D82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0275213D191530B6004C3D82 /* Foundation.framework */,
+				0275213F191530B6004C3D82 /* CoreGraphics.framework */,
+				02752141191530B6004C3D82 /* UIKit.framework */,
+				02752156191530B6004C3D82 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02752143191530B6004C3D82 /* Circle Button Demo */ = {
+			isa = PBXGroup;
+			children = (
+				0275216C191530F7004C3D82 /* DKCircleButton */,
+				0275214C191530B6004C3D82 /* DKAppDelegate.h */,
+				0275214D191530B6004C3D82 /* DKAppDelegate.m */,
+				0275214F191530B6004C3D82 /* Images.xcassets */,
+				02752144191530B6004C3D82 /* Supporting Files */,
+			);
+			path = "Circle Button Demo";
+			sourceTree = "<group>";
+		};
+		02752144191530B6004C3D82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02752145191530B6004C3D82 /* Circle Button Demo-Info.plist */,
+				02752146191530B6004C3D82 /* InfoPlist.strings */,
+				02752149191530B6004C3D82 /* main.m */,
+				0275214B191530B6004C3D82 /* Circle Button Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0275215C191530B6004C3D82 /* Circle Button DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				02752162191530B6004C3D82 /* Circle_Button_DemoTests.m */,
+				0275215D191530B6004C3D82 /* Supporting Files */,
+			);
+			path = "Circle Button DemoTests";
+			sourceTree = "<group>";
+		};
+		0275215D191530B6004C3D82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0275215E191530B6004C3D82 /* Circle Button DemoTests-Info.plist */,
+				0275215F191530B6004C3D82 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0275216C191530F7004C3D82 /* DKCircleButton */ = {
+			isa = PBXGroup;
+			children = (
+				0275216D191530F7004C3D82 /* DKCircleButton.h */,
+				0275216E191530F7004C3D82 /* DKCircleButton.m */,
+			);
+			path = DKCircleButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02752139191530B6004C3D82 /* Circle Button Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02752166191530B6004C3D82 /* Build configuration list for PBXNativeTarget "Circle Button Demo" */;
+			buildPhases = (
+				02752136191530B6004C3D82 /* Sources */,
+				02752137191530B6004C3D82 /* Frameworks */,
+				02752138191530B6004C3D82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Circle Button Demo";
+			productName = "Circle Button Demo";
+			productReference = 0275213A191530B6004C3D82 /* Circle Button Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02752154191530B6004C3D82 /* Circle Button DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02752169191530B6004C3D82 /* Build configuration list for PBXNativeTarget "Circle Button DemoTests" */;
+			buildPhases = (
+				02752151191530B6004C3D82 /* Sources */,
+				02752152191530B6004C3D82 /* Frameworks */,
+				02752153191530B6004C3D82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0275215B191530B6004C3D82 /* PBXTargetDependency */,
+			);
+			name = "Circle Button DemoTests";
+			productName = "Circle Button DemoTests";
+			productReference = 02752155191530B6004C3D82 /* Circle Button DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02752132191530B6004C3D82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Dmitry Klimkin";
+				TargetAttributes = {
+					02752154191530B6004C3D82 = {
+						TestTargetID = 02752139191530B6004C3D82;
+					};
+				};
+			};
+			buildConfigurationList = 02752135191530B6004C3D82 /* Build configuration list for PBXProject "Circle Button Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02752131191530B6004C3D82;
+			productRefGroup = 0275213B191530B6004C3D82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02752139191530B6004C3D82 /* Circle Button Demo */,
+				02752154191530B6004C3D82 /* Circle Button DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02752138191530B6004C3D82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02752148191530B6004C3D82 /* InfoPlist.strings in Resources */,
+				02752150191530B6004C3D82 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02752153191530B6004C3D82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02752161191530B6004C3D82 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02752136191530B6004C3D82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0275214A191530B6004C3D82 /* main.m in Sources */,
+				0275216F191530F7004C3D82 /* DKCircleButton.m in Sources */,
+				0275214E191530B6004C3D82 /* DKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02752151191530B6004C3D82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02752163191530B6004C3D82 /* Circle_Button_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0275215B191530B6004C3D82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02752139191530B6004C3D82 /* Circle Button Demo */;
+			targetProxy = 0275215A191530B6004C3D82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02752146191530B6004C3D82 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02752147191530B6004C3D82 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0275215F191530B6004C3D82 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02752160191530B6004C3D82 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02752164191530B6004C3D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02752165191530B6004C3D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02752167191530B6004C3D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Circle Button Demo/Circle Button Demo-Prefix.pch";
+				INFOPLIST_FILE = "Circle Button Demo/Circle Button Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		02752168191530B6004C3D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Circle Button Demo/Circle Button Demo-Prefix.pch";
+				INFOPLIST_FILE = "Circle Button Demo/Circle Button Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0275216A191530B6004C3D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Circle Button Demo.app/Circle Button Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Circle Button Demo/Circle Button Demo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Circle Button DemoTests/Circle Button DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0275216B191530B6004C3D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Circle Button Demo.app/Circle Button Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Circle Button Demo/Circle Button Demo-Prefix.pch";
+				INFOPLIST_FILE = "Circle Button DemoTests/Circle Button DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02752135191530B6004C3D82 /* Build configuration list for PBXProject "Circle Button Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02752164191530B6004C3D82 /* Debug */,
+				02752165191530B6004C3D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02752166191530B6004C3D82 /* Build configuration list for PBXNativeTarget "Circle Button Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02752167191530B6004C3D82 /* Debug */,
+				02752168191530B6004C3D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02752169191530B6004C3D82 /* Build configuration list for PBXNativeTarget "Circle Button DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0275216A191530B6004C3D82 /* Debug */,
+				0275216B191530B6004C3D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02752132191530B6004C3D82 /* Project object */;
+}
