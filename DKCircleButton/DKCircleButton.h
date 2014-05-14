@@ -12,5 +12,9 @@
 
 @property (nonatomic, strong) UIColor *borderColor;
 @property (nonatomic) BOOL animateTap;
+@property (nonatomic) BOOL displayShading;
+@property (nonatomic) CGFloat borderSize;
+
+- (void)blink;
 
 @end
