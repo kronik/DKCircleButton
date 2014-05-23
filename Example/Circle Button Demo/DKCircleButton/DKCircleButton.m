@@ -199,5 +199,31 @@
     [circleShape addAnimation:animation forKey:nil];
 }
 
+- (void)setImage:(UIImage *)image animated: (BOOL)animated {
+    
+    [super setImage:nil forState:UIControlStateNormal];
+    [super setImage:image forState:UIControlStateSelected];
+    [super setImage:image forState:UIControlStateHighlighted];
+    
+    if (animated) {
+        UIImageView *tmpImageView = [[UIImageView alloc] initWithFrame:self.bounds];
+        
+        tmpImageView.image = image;
+        tmpImageView.alpha = 0;
+        tmpImageView.backgroundColor = [UIColor clearColor];
+        tmpImageView.contentMode = UIViewContentModeScaleAspectFit;
+        
+        [self addSubview:tmpImageView];
+        
+        [UIView animateWithDuration:0.3 delay:0 options:UIViewAnimationOptionCurveEaseIn animations:^{
+            tmpImageView.alpha = 1.0;
+        } completion:^(BOOL finished) {
+            [super setImage:image forState:UIControlStateNormal];
+            [tmpImageView removeFromSuperview];
+        }];
+    } else {
+        [super setImage:image forState:UIControlStateNormal];
+    }
+}
 
 @end

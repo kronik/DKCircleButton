@@ -17,4 +17,6 @@
 
 - (void)blink;
 
+- (void)setImage:(UIImage *)image animated: (BOOL)animated;
+
 @end
